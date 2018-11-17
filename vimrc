@@ -31,6 +31,9 @@ Plugin 'airblade/vim-gitgutter'
 " That which (allegedly) visualises markdown
 Bundle 'gabrielelana/vim-markdown'
 
+" Pick the pretty things
+Plugin 'flazz/vim-colorschemes'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
