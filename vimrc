@@ -34,6 +34,9 @@ Bundle 'gabrielelana/vim-markdown'
 " Pick the pretty things
 Plugin 'flazz/vim-colorschemes'
 
+" That which indicates how much time you've spent
+Plugin 'wakatime/vim-wakatime'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
@@ -92,9 +95,33 @@ set autoindent
 set smartindent
 set smarttab
 
-
-
-
-
-
-
+" Cool Vim shortcuts:
+" Ctrl-W-V splits vertically
+" Ctrl-W-R swaps two panes
+" c-i-{ " || { || ( || [ } changes everything within quotes, braces,
+" parenthese and square brackets respectively.
+" % in netrw creates new file
+" . repeats previous command
+" To copy to clipboard, select region of interest and do "+y on Linux.
+" For MacOSX, add to .vimrc vnoremap <C-c> :w !pbcopy<CR><CR> noremap
+"  <C-v> :r !pbpaste<CR><CR>
+" To use this mapping, if you want to copy, highlight text in visual
+" mode and hit Ctrl-c to copy. To paste from the system clipboard, hit
+" Ctrl-v."
+"
+"
+"        ________ ++     ________
+"       /VVVVVVVV\++++  /VVVVVVVV\
+"       \VVVVVVVV/++++++\VVVVVVVV/
+"        |VVVVVV|++++++++/VVVVV/'
+"        |VVVVVV|++++++/VVVVV/'
+"       +|VVVVVV|++++/VVVVV/'+
+"     +++|VVVVVV|++/VVVVV/'+++++
+"   +++++|VVVVVV|/VVV___++++++++++
+"     +++|VVVVVVVVVV/##/ +_+_+_+_
+"       +|VVVVVVVVV___ +/#_#,#_#,\
+"        |VVVVVVV//##/+/#/+/#/'/#/
+"        |VVVVV/'+/#/+/#/+/#/ /#/
+"        |VVV/'++/#/+/#/ /#/ /#/
+"        'V/'  /##//##//##//###/
+"                 ++"
