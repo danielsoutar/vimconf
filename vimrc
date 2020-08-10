@@ -65,7 +65,7 @@ set ruler
 
 set mouse=a
 
-colorscheme morning
+colorscheme molokai
 
 set showcmd "Show (partial) command in status line"
 
